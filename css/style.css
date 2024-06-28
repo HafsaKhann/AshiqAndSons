@@ -1,0 +1,36 @@
+.navbar{
+	background:#d4c2bb;
+	border-bottom:2px solid #754635;
+}
+.mtag:hover{
+	background-color:#bcaea9;
+	 border-radius:5px;
+	 color:#754635;
+}
+.home , .mtag{
+	margin-right:5px;
+}
+.mtagbtn:hover{
+	color:#fff !important;
+}
+.imagebanner{
+background-image:url("../images/banner.png");	
+background-repeat:no-repeat;
+background-position:center right;
+/*background-size:100% 100%;*/
+}
+.headingbanner h5{
+	font-family:Lucida Bright;
+	font-size:30px;
+}
+.OurSpecialheading h5{
+	font-family:Javanese Text;
+	font-size:40px;
+}
+
+@media(max-width:768px){
+	
+	.imagebanner{
+		background-position:top left;
+	}
+}
